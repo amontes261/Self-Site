@@ -19,12 +19,10 @@
 
 .container{
   background-color: black;
-  /* background-image: url('./assets/backgroundImg.png');
+  background-image: url('./assets/backgroundImg.png');
   background-size: cover;
-  opacity: 80%; */
 }
 
 .textContainer{
   color:chartreuse;
-  opacity: 100%;
 }
