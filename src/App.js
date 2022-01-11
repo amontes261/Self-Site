@@ -7,7 +7,7 @@ import BaseRouter from "./routes"
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#ECF0F5", width: "auto", height: "auto"}}>
+    <div style={{ backgroundColor: "#181A18", width: "100vw", height: "100vh"}}>
       <Router>
         <BaseRouter/>
       </Router>

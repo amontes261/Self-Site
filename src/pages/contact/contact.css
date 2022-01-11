@@ -1,0 +1,5 @@
+.contactContainer{
+    background-image: url('../../assets/contact_background.png');
+    background-size: cover;
+    opacity: 0.2;
+}

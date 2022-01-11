@@ -1,0 +1,51 @@
+.App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+  
+.cardContainer{
+    color: black;
+}
+  
+.notFoundHeader{
+    color: crimson;
+    min-height: 100vh;
+    font-weight: 800;
+    font-size: calc(45px + 5vmin);
+}
+
+.notFoundCard{
+    margin-bottom: calc(35px + 3vmin);
+}
+
+.notFoundContainer{
+    background-image: url('../../assets/not_found_background_opaque.png');
+    background-size: cover;
+}
+
+.notFoundCSS {
+    text-align: center;
+}
+
+.returnButton{
+    font-size: 30px;
+    height: 100px;
+}
+  
+.smallTextContainer{
+    padding-top: 1em;
+}
+  
+.textContainer{
+    color: white;
+    background-color: black;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    opacity: 1.0;
+}

@@ -1,0 +1,5 @@
+.aboutContainer{
+    background-image: url('../../assets/about_background.png');
+    background-size: cover;
+    opacity: 0.2;
+}

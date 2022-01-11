@@ -1,3 +1,9 @@
+.homeContainer{
+    background-image: url('../../assets/home_background.png');
+    background-size: cover;
+    opacity: 0.2;
+}
+
 .homeCSS{
     
 }
