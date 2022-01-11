@@ -27,6 +27,11 @@
     background-size: cover;
     opacity: 0.95;
   }
+
+  .secretPeriod{
+    color: blanchedalmond;
+    text-decoration: none;
+  }
   
   .smallTextContainer{
     padding-top: 1em;

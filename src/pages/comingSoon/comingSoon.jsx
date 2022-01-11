@@ -2,6 +2,7 @@ import React from "react";
 import "./comingSoon.css"
 
 import { Card } from '@material-ui/core';
+import { Link } from "react-router-dom";
 
 function comingSoonPage (props) {
     return(
@@ -13,7 +14,11 @@ function comingSoonPage (props) {
               <div className= "smallTextContainer">
                 <div class= "pt-5"> Hi, I'm Alex's website. </div>
                 <div> Thanks for coming, but you're a bit early. This webpage is still under development. </div>
-                <div> Check back soon- renovations could be done by the next time you visit. </div>
+                <div> Check back soon- renovations could be done by the next time you visit
+                  <Link to="/about" className="secretPeriod">
+                    <span>. </span>
+                  </Link>
+                </div>
               </div>
             </div>
           </Card>
