@@ -7,7 +7,7 @@ import { Card } from '@material-ui/core';
 function maintenancePage (props) {
     return(
         <div className="maintenanceCSS">
-            <header className="App-header maintenanceContainer">
+            <header className="maintenanceHeader maintenanceContainer">
                 <Card className= "maintenanceCard">
                     <div className="textContainer">
                         <code className= "maintenanceHeader"> Down for Maintenance </code>

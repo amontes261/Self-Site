@@ -1,12 +1,3 @@
-.App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-}
-  
 .cardContainer{
     color: black;
 }
@@ -18,12 +9,22 @@
 }
 
 .maintenanceContainer{
-    background-image: url('../../assets/maintenance_background_opaque.png');
+    background-image: url('../../assets/word_backgrounds/opaque/maintenance.png');
     background-size: cover;
 }
 
 .maintenanceCSS {
     text-align: center;
+}
+
+.maintenanceHeader {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-attachment: fixed;
 }
   
 .smallTextContainer{

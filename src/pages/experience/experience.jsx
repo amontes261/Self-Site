@@ -11,7 +11,7 @@ function experiencePage (props) {
         <div className="experienceCSS">
             <NavBar>
             </NavBar>
-            <header className="App-header experienceContainer">
+            <header className="experienceHeader experienceContainer">
                 <Card className= "experienceCard">
 
                 </Card>

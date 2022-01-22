@@ -1,5 +1,14 @@
 .experienceContainer{
-    background-image: url('../../assets/experience_background.png');
+    background-image: url('../../assets/word_backgrounds/opaque/experience.png');
     background-size: cover;
-    opacity: 0.2;
+}
+
+.experienceHeader{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-attachment: fixed;
 }

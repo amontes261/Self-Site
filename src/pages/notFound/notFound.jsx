@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function notFoundPage (props) {
     return(
         <div className="notFoundCSS">
-            <header className="App-header notFoundContainer">
+            <header className="notFoundHeader notFoundContainer">
                 <Card className= "notFoundCard">
                     <div className="textContainer">
                         <code className= "notFoundHeader"> Page Not Found </code>

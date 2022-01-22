@@ -1,6 +1,8 @@
 .navbarCSS{
     background-color: #181A18;
     height: calc(10vh + 3vmin);
+    position: sticky;
+    top: 0;
 }
 
 .navbarLink{

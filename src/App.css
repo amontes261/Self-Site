@@ -23,9 +23,8 @@
 
 .container{
   background-color: black;
-  background-image: url('./assets/backgroundImg.png');
+  background-image: url('./assets/word_backgrounds/opaque/contact.png');
   background-size: cover;
-  opacity: 0.95;
 }
 
 .smallTextContainer{

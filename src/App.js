@@ -1,16 +1,15 @@
 import './App.css';
-import { BrowserRouter as Router } from "react-router-dom";
-// import { HashRouter as Router } from 'react-router-dom'
+import { HashRouter } from "react-router-dom";
 
 // router //
-import BaseRouter from "./routes"
+import Routes from "./routes"
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#181A18", width: "100vw", height: "100vh"}}>
-      <Router>
-        <BaseRouter/>
-      </Router>
+    <div style={{ backgroundColor: "#181A18" }}>
+      <HashRouter>
+        <Routes/>
+      </HashRouter>
     </div>
   );
 }

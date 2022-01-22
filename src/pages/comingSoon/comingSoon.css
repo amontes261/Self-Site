@@ -2,15 +2,6 @@
     text-align: center;
   }
   
-  .App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-  }
-  
   .cardContainer{
     color: black;
   }
@@ -21,15 +12,28 @@
     font-size: calc(60px + 5vmin);
   }
   
+  .comingSoonPageHeader{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-attachment: fixed;
+  }
+
   .container{
     background-color: black;
-    background-image: url('../../assets/backgroundImg.png');
+    background-image: url('../../assets/word_backgrounds/opaque/coming_soon.png');
     background-size: cover;
-    opacity: 0.95;
+  }
+
+  .divSpacer{
+    height: 5vh;
   }
 
   .secretPeriod{
-    color: blanchedalmond;
+    color: white;
     text-decoration: none;
   }
   
@@ -38,7 +42,7 @@
   }
   
   .textContainer{
-    color: blanchedalmond;
+    color: white;
     background-color: black;
     padding-left: 1.5em;
     padding-right: 1.5em;

@@ -11,7 +11,7 @@ function contactPage (props) {
         <div className="contactCSS">
             <NavBar>
             </NavBar>
-            <header className="App-header contactContainer">
+            <header className="contactHeader contactContainer">
                 <Card className= "contactCard">
 
                 </Card>

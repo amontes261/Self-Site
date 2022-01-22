@@ -11,7 +11,7 @@ function aboutPage (props) {
         <div className="aboutCSS">
             <NavBar>
             </NavBar>
-            <header className="App-header aboutContainer">
+            <header className="aboutHeader aboutContainer">
                 <Card className= "aboutCard">
 
                 </Card>

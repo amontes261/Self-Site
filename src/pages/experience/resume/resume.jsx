@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+/* import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf';
 
 import samplePDF from '../../../documents/resume.pdf';
@@ -24,6 +24,7 @@ export default function Test() {
       </div>
     );
 
+  /*
 
   return (
     <Document file={samplePDF}>
@@ -32,7 +33,7 @@ export default function Test() {
   );
 }
 
-{/*
+
 import React from "react";
 import "./home.css"
 
@@ -41,7 +42,7 @@ import { Card } from '@material-ui/core';
 function homePage (props) {
     return(
         <div className="homeCSS">
-            <header className="App-header homeContainer">
+            <header className="resumeHeader homeContainer">
                 <Card className= "homeCard">
 
                 </Card>
@@ -52,4 +53,5 @@ function homePage (props) {
 
 
 export default homePage;
-*/}
+
+*/

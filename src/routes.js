@@ -1,5 +1,5 @@
 import React from 'react'
-import { Redirect, Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 // ==================== //
 // === PAGE IMPORTS === //
@@ -18,14 +18,18 @@ import ResumePage from "./pages/experience/resume/resume"
 import comingSoonPage from "./pages/comingSoon/comingSoon"
 import maintenancePage from "./pages/maintenance/maintenance"
 
+// DEFAULT "PAGE NOT FOUND" PAGE //
 import notFoundPage from "./pages/notFound/notFound"
 
 // ======================================================= //
 
-const BaseRouter = () => (
-    <div>
+const Routes = () => (
+    <Switch>
         {/* CORE PAGES */}
-        <Route exact path="/homeTemp" component={HomePage}/>
+
+        {/* <Route exact path="/home" component={HomePage}/> */}
+        <Route exact path="/temp" component={HomePage}/>
+
         <Route exact path="/about" component={AboutPage}/>
         <Route exact path="/experience" component={ExperiencePage}/>
         <Route exact path="/contact" component={ContactPage}/>
@@ -34,16 +38,17 @@ const BaseRouter = () => (
         <Route exact path="/experience/resume" component={ResumePage}/>
 
         {/* MISCALLANEOUS PAGES */}
+
+        {/* <Route exact path="/comingSoon" component={comingSoonPage}/> */}
         <Route exact path="/" component={comingSoonPage}/>
+        
         <Route exact path="/maintenance" component={maintenancePage}/>
         <Route exact path="/notFound" component={notFoundPage}/>
 
-        {/* <Redirect from="/test" to="/notFound" /> */}
+        {/* DEFAULT PAGE: "Page Not Found" */}
+        <Route component={notFoundPage} />
 
-        {/* <Redirect to="/notFound" /> */}
-        <Route path="/default-path" component={notFoundPage} />
-        
-    </div>
+    </Switch>
 )
 
-export default BaseRouter
+export default Routes

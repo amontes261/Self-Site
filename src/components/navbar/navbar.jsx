@@ -2,7 +2,7 @@ import React from "react"
 import "./navbar.css"
 
 import { Link } from "react-router-dom";
-import { Navbar, Nav, Form, Button } from "react-bootstrap"
+import { Navbar, Nav, } from "react-bootstrap"
 
 import main_logo from '../../assets/navbar_icon.png';
 

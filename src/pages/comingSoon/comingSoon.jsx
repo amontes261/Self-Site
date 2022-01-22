@@ -7,20 +7,22 @@ import { Link } from "react-router-dom";
 function comingSoonPage (props) {
     return(
         <div className="App">
-        <header className="App-header container">
+        <header className="comingSoonPageHeader container">
           <Card className= "cardContainer bg-dark">
             <div className="textContainer">
               <code className= "comingSoonHeader"> Coming Soon </code>
               <div className= "smallTextContainer">
-                <div class= "pt-5"> Hi, I'm Alex's website. </div>
-                <div> Thanks for coming, but you're a bit early. This webpage is still under development. </div>
-                <div> Check back soon- renovations could be done by the next time you visit
-                  <Link to="/about" className="secretPeriod">
+                <div className= "divSpacer"> Hey there, looks like you've made it to my website. This webpage is still under development. </div>
+                <div className= "divSpacer"> This' a side-project, so it'll take some time before I'll be online
+                <Link to="/about" className="secretPeriod">
                     <span>. </span>
                   </Link>
                 </div>
+                <div className= "divSpacer" />
+                <div> Thanks for coming & see you soon!</div>
+                <div className= "divSpacer"> Created by Alex Montes </div>
               </div>
-            </div>
+              </div>
           </Card>
         </header>
       </div>

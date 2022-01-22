@@ -1,9 +1,32 @@
+.cardContainer{
+    width: 75%;
+}
+
+.homeCard{
+    background-color: white;
+    color: white;
+}
+
 .homeContainer{
-    background-image: url('../../assets/home_background.png');
+    background-image: url('../../assets/word_backgrounds/opaque/home.png');
     background-size: cover;
-    opacity: 0.2;
 }
 
 .homeCSS{
     
+}
+
+.homeHeader{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-attachment: fixed;
+}
+
+.textContainer{
+background-color: white;
+color: white;
 }

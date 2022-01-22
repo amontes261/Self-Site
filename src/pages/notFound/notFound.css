@@ -1,12 +1,3 @@
-.App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-}
-  
 .cardContainer{
     color: black;
 }
@@ -23,8 +14,18 @@
 }
 
 .notFoundContainer{
-    background-image: url('../../assets/not_found_background_opaque.png');
+    background-image: url('../../assets/word_backgrounds/opaque/not_found.png');
     background-size: cover;
+}
+
+.notFoundHeader {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-attachment: fixed;
 }
 
 .notFoundCSS {
