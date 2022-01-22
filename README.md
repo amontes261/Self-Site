@@ -2,7 +2,7 @@
 
 ### Created by Alex Montes
 
-This project was made using ReactJS, HTML and CSS & is hosted via GitHub Pages. It's meant to show information about myself, information about my projects, and show what I'm capable of doing with ReactJS. Click [here](https://amontes261.github.io/#/home) to access my currently-deployed site.
+This project was made using ReactJS, HTML and CSS & is hosted via GitHub Pages. It's meant to show information about myself, information about my projects, and show what I'm capable of doing with ReactJS. Click [here](https://amontes261.github.io/#/) to access my currently-deployed site.
 
 To make a site like mine, click [here](https://github.com/facebook/create-react-app) to visit the React-App repository & get started. To learn more about React and/or learn how to program using the framework, check out the [documentation](https://reactjs.org/).
 
