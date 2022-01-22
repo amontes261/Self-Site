@@ -18,4 +18,4 @@ Clicking [here](http://localhost:3000) after running this command will open the 
 ### `npm run deploy`
 
 Builds & deploys the web-application to GitHub Pages.\
-After your terminal reads *"Published"*, it takes GitHub approximately 4-8 minutes for deployed changes to be compiled & built under the hood once this command is ran.
+After the terminal reads *"Published"*, it takes GitHub approximately 4-8 minutes for deployed changes to be compiled & built under the hood.
