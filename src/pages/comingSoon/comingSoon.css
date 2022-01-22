@@ -1,3 +1,8 @@
+/* ================================== //
+// comingSoon.css - Standard CSS File //
+// ----- Created by Alex Montes ----- //
+// ================================== */
+
 .App {
     text-align: center;
   }
@@ -22,6 +27,10 @@
     background-attachment: fixed;
   }
 
+  .completionAndCreatedByText{
+    font-size: calc(2px + 2vmin);
+  }
+
   .container{
     background-color: black;
     background-image: url('../../assets/word_backgrounds/opaque/coming_soon.png');
@@ -30,6 +39,11 @@
 
   .divSpacer{
     height: 5vh;
+  }
+
+  .repoLink{
+    color:aqua;
+    text-decoration: none;
   }
 
   .secretPeriod{

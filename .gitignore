@@ -1,23 +1,33 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+########################################
+## gitignore for amontes261.github.io ##
+## ----- Created by Alex Montes ----- ##
+########################################
+
 
 # dependencies
+# ------------
 /node_modules
 /.pnp
 .pnp.js
 
 # testing
+# -------
 /coverage
 
 # production
+# ----------
 /build
 
-# misc
+# miscallaneous
+# -------------
 .DS_Store
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# no idea what these are tbh
+# --------------------------
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

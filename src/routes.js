@@ -1,3 +1,8 @@
+// ==================================== //
+// routes.js - Standard JavaScript File //
+// ------ Created by Alex Montes ------ //
+// ==================================== //
+
 import React from 'react'
 import { Route, Switch } from "react-router-dom";
 
@@ -26,10 +31,8 @@ import notFoundPage from "./pages/notFound/notFound"
 const Routes = () => (
     <Switch>
         {/* CORE PAGES */}
-
-        {/* <Route exact path="/home" component={HomePage}/> */}
-        <Route exact path="/temp" component={HomePage}/>
-
+        {/* <Route exact path="/" component={HomePage}/> */}
+        <Route exact path="/home" component={HomePage}/>
         <Route exact path="/about" component={AboutPage}/>
         <Route exact path="/experience" component={ExperiencePage}/>
         <Route exact path="/contact" component={ContactPage}/>

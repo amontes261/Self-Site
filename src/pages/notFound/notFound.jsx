@@ -1,3 +1,8 @@
+// ================================ //
+// notFound.jsx - ReactJS HTML File //
+// ---- Created by Alex Montes ---- //
+// ================================ //
+
 import React from "react";
 import "./notFound.css"
 
@@ -8,7 +13,7 @@ import { Link } from "react-router-dom";
 function notFoundPage (props) {
     return(
         <div className="notFoundCSS">
-            <header className="notFoundHeader notFoundContainer">
+            <header className="notFoundPageHeader notFoundContainer">
                 <Card className= "notFoundCard">
                     <div className="textContainer">
                         <code className= "notFoundHeader"> Page Not Found </code>

@@ -1,3 +1,8 @@
+/* ================================ //
+// notFound.css - Standard CSS File //
+// ---- Created by Alex Montes ---- //
+// ================================ */
+
 .cardContainer{
     color: black;
 }
@@ -9,16 +14,7 @@
     font-size: calc(45px + 5vmin);
 }
 
-.notFoundCard{
-    margin-bottom: calc(35px + 3vmin);
-}
-
-.notFoundContainer{
-    background-image: url('../../assets/word_backgrounds/opaque/not_found.png');
-    background-size: cover;
-}
-
-.notFoundHeader {
+.notFoundPageHeader {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,13 +24,43 @@
     background-attachment: fixed;
 }
 
+.notFoundCard{
+    margin-bottom: calc(35px + 3vmin);
+}
+
+.notFoundContainer{
+    background-image: url('../../assets/word_backgrounds/opaque/not_found.png');
+    background-size: cover;
+}
+
 .notFoundCSS {
     text-align: center;
 }
 
-.returnButton{
-    font-size: 30px;
-    height: 100px;
+.returnButton {
+    background-color:darkred;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: calc(5px + 1.5vmin);
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.returnButton:hover,
+.returnButton:focus {
+    background-color: crimson;
 }
   
 .smallTextContainer{

@@ -1,3 +1,8 @@
+// ================================== //
+// comingSoon.jsx - ReactJS HTML File //
+// ----- Created by Alex Montes ----- //
+// ================================== //
+
 import React from "react";
 import "./comingSoon.css"
 
@@ -12,16 +17,19 @@ function comingSoonPage (props) {
             <div className="textContainer">
               <code className= "comingSoonHeader"> Coming Soon </code>
               <div className= "smallTextContainer">
-                <div className= "divSpacer"> Hey there, looks like you've made it to my website. This webpage is still under development. </div>
-                <div className= "divSpacer"> This' a side-project, so it'll take some time before I'll be online
-                <Link to="/about" className="secretPeriod">
-                    <span>. </span>
-                  </Link>
+                <div> This webpage is still under development. </div>
+                  <div className= "completionAndCreatedByText divSpacer"> Expected completion: Summer 2022 </div>
+                  <div>
+                    In the meantime, you can check out the&nbsp;
+                    <a className= "repoLink" href="https://github.com/shanthni/Symptom-Match">repository</a>
+                    &nbsp;for updates
+                    <Link to="/home" className="secretPeriod">
+                      <span>. </span>
+                    </Link>
+                  </div>
+                  <div> Thanks for coming & see you soon!</div>
+                  <div className= "completionAndCreatedByText divSpacer"> Created by Alex Montes </div>
                 </div>
-                <div className= "divSpacer" />
-                <div> Thanks for coming & see you soon!</div>
-                <div className= "divSpacer"> Created by Alex Montes </div>
-              </div>
               </div>
           </Card>
         </header>

@@ -1,3 +1,8 @@
+// ============================== //
+// resume.jsx - ReactJS HTML File //
+// --- Created by Alex Montes --- //
+// ============================== //
+
 /* import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf';
 
