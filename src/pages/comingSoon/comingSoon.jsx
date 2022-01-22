@@ -21,7 +21,7 @@ function comingSoonPage (props) {
                   <div className= "completionAndCreatedByText divSpacer"> Expected completion: Summer 2022 </div>
                   <div>
                     In the meantime, you can check out the&nbsp;
-                    <a className= "repoLink" href="https://github.com/shanthni/Symptom-Match">repository</a>
+                    <a className= "repoLink" href="https://github.com/amontes261/amontes261.github.io">repository</a>
                     &nbsp;for updates
                     <Link to="/home" className="secretPeriod">
                       <span>. </span>
