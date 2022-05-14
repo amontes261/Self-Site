@@ -18,11 +18,11 @@ class NavBar extends React.Component {
                 <Navbar bg="primary" variant="dark" className= "navbarCSS">
                     <Nav className="mr-auto">
                         <span className= "navbarContainer">
-                            <Link to="/">
+                            <Link to="/home">
                                 <img src= {main_logo} alt= "NavBar_Logo" className= 'navbarLogo' />
                             </Link>
                             <span className= "navbarLinkContainer"> 
-                                <Link to="/" className= "navbarLink">
+                                <Link to="/home" className= "navbarLink">
                                     HOME
                                 </Link>
                                 <Link to="/about" className= "navbarLink">
@@ -35,7 +35,6 @@ class NavBar extends React.Component {
                                     CONTACT
                                 </Link>
                             </span>
-                            
                         </span>
                     </Nav>
                 </Navbar>

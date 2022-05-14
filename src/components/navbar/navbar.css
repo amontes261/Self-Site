@@ -17,14 +17,12 @@
 }
 
 .navbarContainer{
-
     margin: auto;
-    height: 15vh;
+    height: calc(5px + 12vmin); 
     white-space: normal;
     display: flex;
     width: 100%;
     align-items: center;
-
 }
 
 .navbarLinkContainer{

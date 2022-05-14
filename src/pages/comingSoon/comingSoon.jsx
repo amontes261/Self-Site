@@ -18,7 +18,7 @@ function comingSoonPage (props) {
               <code className= "comingSoonHeader"> Coming Soon </code>
               <div className= "smallTextContainer">
                 <div> This webpage is still under development. </div>
-                  <div className= "completionAndCreatedByText divSpacer"> Expected completion: Summer 2022 </div>
+                  <div className= "completionAndCreatedByText divSpacer"> Expected completion: Fall 2022 </div>
                   <div>
                     In the meantime, you can check out the&nbsp;
                     <a className= "repoLink" href="https://github.com/amontes261/amontes261.github.io">repository</a>

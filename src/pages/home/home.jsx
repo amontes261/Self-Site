@@ -15,7 +15,8 @@ var cardDivStyle = {
     flex:1,
     backgroundColor:'white',
     color: 'black',
-    fontSize: '40px'
+    fontSize: '40px',
+    height: '90%'
 };
 
 function homePage (props) {
@@ -26,13 +27,12 @@ function homePage (props) {
                 <div className= "cardContainer">
                     <Card className= "homeCard">
                         <div className= "textContainer" style={cardDivStyle}>
-                                
-                            This is a test
-
+                            Hi, I'm Alex.
                         </div>
                     </Card> 
                 </div>
             </header>
+            
         </div>
     )
 }

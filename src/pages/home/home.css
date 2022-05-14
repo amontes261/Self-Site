@@ -31,7 +31,8 @@
     background-attachment: fixed;
 }
 
-.textContainer{
-background-color: white;
-color: white;
+.cardHeaderText{
+    background-color: white;
+    color: white;
+
 }

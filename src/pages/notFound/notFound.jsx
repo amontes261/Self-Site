@@ -18,7 +18,7 @@ function notFoundPage (props) {
                     <div className="textContainer">
                         <code className= "notFoundHeader"> Page Not Found </code>
                         <div className= "smallTextContainer">
-                            <div class= "pt-5"> You've made it to a page that no-longer exists or are trying to access page that never existed. </div>
+                            <div class= "pt-5"> You've made it to a page that no-longer exists or never existed. </div>
                             </div>
                         </div>
                     </Card>
