@@ -15,8 +15,10 @@
 
 .theMen{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
     border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
 }
