@@ -22,6 +22,7 @@ import ResumePage from "./pages/experience/resume/resume"
 // MISCALLANROUS PAGES //
 import comingSoonPage from "./pages/comingSoon/comingSoon"
 import maintenancePage from "./pages/maintenance/maintenance"
+import menPage from "./pages/men/men"
 
 // DEFAULT "PAGE NOT FOUND" PAGE //
 import notFoundPage from "./pages/notFound/notFound"
@@ -46,6 +47,7 @@ const Routes = () => (
         <Route exact path="/" component={comingSoonPage}/>
         
         <Route exact path="/maintenance" component={maintenancePage}/>
+        <Route exact path="/men" component={menPage}/>
         <Route exact path="/notFound" component={notFoundPage}/>
 
         {/* DEFAULT PAGE: "Page Not Found" */}

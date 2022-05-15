@@ -1,0 +1,22 @@
+/* ============================ //
+// men.css -- Standard CSS File //
+// -- Created by Alex Montes -- //
+// ============================ */
+
+.menContainer{
+    background-image: url('../../assets/men_opaque.png');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.menTopSpacer{
+    min-height: calc(15vh + 20px);
+}
+
+.theMen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10%;
+}
